@@ -2,8 +2,8 @@
     {
       "name":"Crypto Heroes 3",
       "contract":[
-        "account":"h3.game",
-        "account":"prizepool"
+        "h3.game",
+        "prizepool"
       ],
 	  "actions":[
 	    {
@@ -19,7 +19,7 @@
     {
       "name":"Coffe.one",
       "contract":[
-        "account":"coffe.one"
+        "coffe.one"
       ],
 	  "actions":[],
       "link":"https://coffe.one"
