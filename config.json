@@ -2,16 +2,26 @@
     {
       "name":"Crypto Heroes 3",
       "contract":[
-        {"account":"h3.game"},
-        {"account":"prizepool"}
+        "account":"h3.game",
+        "account":"prizepool"
       ],
-      {"link":"https://cryptoheroes.net"}
+	  "actions":[
+	    {
+		  "claim":{
+		    "account":"name",
+			"type":"string",
+			"version":"int"
+		  }
+		}
+	  ],
+      "link":"https://cryptoheroes.net"
     },
     {
       "name":"Coffe.one",
       "contract":[
-        {"account":"coffe.one"}
+        "account":"coffe.one"
       ],
-      {"link":"https://coffe.one"}
+	  "actions":[],
+      "link":"https://coffe.one"
     }    
  ]
