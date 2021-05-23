@@ -2,8 +2,7 @@
   {
     "name":"Crypto Heroes 3",
     "contract":[
-      "h3.game",
-      "prizepool"
+      "h3.game"
     ],
     "actions":[
       {
