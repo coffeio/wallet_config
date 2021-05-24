@@ -4,15 +4,7 @@
     "contract":[
       "h3.game"
     ],
-    "actions":[
-      {
-        "claim":{
-          "account":"name",
-          "type":"string",
-          "version":"int"
-        }
-      }
-    ],
+    "actions":[],
     "link":"https://cryptoheroes.net"
   },
   {
@@ -48,6 +40,6 @@
         }
       }
 	],
-    "link":"https://coffe.one"
+    "link":"https://coffe.io"
   }  
  ]
