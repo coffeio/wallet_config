@@ -1,25 +1,13 @@
 [
   {
-    "name":"Crypto Heroes 3",
-    "contract":[
-      "h3.game"
-    ],
-    "actions":[],
-    "link":"https://cryptoheroes.net"
-  },
-  {
     "name":"COFFE Exchange",
-    "contract":[
-      "coffe.one"
-    ],
+    "contract":[ "coffe.one" ],
     "actions":[],
     "link":"https://coffe.one"
   },
   {
     "name":"COFFE HOLDER",
-    "contract":[
-      "coffe.hold"
-    ],
+    "contract":["coffe.hold"],
     "actions":[
 	  {
         "stake":{
@@ -37,6 +25,29 @@
 	  {
         "claim":{
           "account":"name"
+        }
+      }
+	],
+    "link":"https://coffe.io"
+  },
+  {
+    "name":"SYSTEM",
+    "contract":["eosio"],
+    "actions":[
+	  {
+        "buyrambytes":{
+          "payer":"name",
+          "receiver":"name",
+          "bytes":"int"
+        }
+      },
+	  {
+        "delegatebw":{
+          "from":"name",
+          "receiver":"name",
+          "stake_net_quantity":"asset",
+          "stake_cpu_quantity":"asset",
+          "transfer":"int"
         }
       }
 	],
