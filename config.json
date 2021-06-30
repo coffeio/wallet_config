@@ -11,20 +11,20 @@
     "actions":[
 	  {
         "stake":{
-          "from":"name",
+          "from":"user",
           "quantity":"asset",
           "memo":"string"
         }
       },
 	  {
         "unstake":{
-          "from":"name",
+          "from":"user",
           "quantity":"asset"
         }
       },
 	  {
         "claim":{
-          "account":"name"
+          "account":"user"
         }
       }
 	],
@@ -36,14 +36,14 @@
     "actions":[
 	  {
         "buyrambytes":{
-          "payer":"name",
+          "payer":"user",
           "receiver":"name",
           "bytes":"int"
         }
       },
 	  {
         "delegatebw":{
-          "from":"name",
+          "from":"user",
           "receiver":"name",
           "stake_net_quantity":"asset",
           "stake_cpu_quantity":"asset",
