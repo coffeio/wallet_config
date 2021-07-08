@@ -13,7 +13,7 @@
     { "contract":"swap.e.green", "networks":["ERC20","BEP20"] },
     { "contract":"swap.t.whx", "networks":["TRC20"] },
     { "contract":"swap.t.whf", "networks":["TRC20"] },
-	{ "contract":"swap.e.fast", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.e.fast", "networks":["ERC20","BEP20"] },
     { "contract":"swap.e.zcn", "networks":["ERC20","BEP20"] },
     { "contract":"swap.e.bfi", "networks":["ERC20","BEP20"] },
     { "contract":"swap.e.fwt", "networks":["ERC20","BEP20"] },
