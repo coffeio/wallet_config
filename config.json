@@ -1,56 +1,83 @@
-[
-  {
-    "name":"COFFE Exchange",
-    "contract":[ "coffe.one" ],
-    "actions":[],
-    "link":"https://coffe.one"
-  },
-  {
-    "name":"COFFE HOLDER",
-    "contract":["coffe.hold"],
-    "actions":[
-	  {
-        "stake":{
-          "from":"user",
-          "quantity":"asset",
-          "memo":"string"
+{
+  "tokens":[
+    { "contract":"eosio.token", "networks":["TRC10","BEP20"] },
+    { "contract":"swap.eos", "networks":["EOS"] },
+    { "contract":"swap.trx", "networks":["TRX"] },
+    { "contract":"swap.cht", "networks":["EOS"] },
+    { "contract":"swap.eth", "networks":["ETH"] },
+    { "contract":"swap.btc", "networks":["BTC"] },
+    { "contract":"swap.bnb", "networks":["BEP20"] },
+    { "contract":"swap.usdt.e", "networks":["ERC20"] },
+    { "contract":"swap.t.asp", "networks":["TRC20"] },
+    { "contract":"swap.t.psrs", "networks":["TRC20"] },
+    { "contract":"swap.e.green", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.t.whx", "networks":["TRC20"] },
+    { "contract":"swap.t.whf", "networks":["TRC20"] },
+	{ "contract":"swap.e.fast", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.e.zcn", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.e.bfi", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.e.fwt", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.t.dpc", "networks":["TRC20"] },
+    { "contract":"swap.b.ore", "networks":["BEP20"] },
+    { "contract":"swap.e.dgp", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.e.sefa", "networks":["ERC20","BEP20"] },
+    { "contract":"swap.t.mp3", "networks":["TRC20"] },
+    { "contract":"swap.e.cbt", "networks":["ERC20","BEP20"] }
+  ],
+  "contracts:[
+    {
+      "name":"COFFE Exchange",
+      "contract":[ "coffe.one" ],
+      "actions":[],
+      "link":"https://coffe.one"
+    },
+    {
+      "name":"COFFE HOLDER",
+      "contract":["coffe.hold"],
+      "actions":[
+        {
+          "stake":{
+            "from":"user",
+            "quantity":"asset",
+            "memo":"string"
+          }
+        },
+        {
+          "unstake":{
+            "from":"user",
+            "quantity":"asset"
+          }
+        },
+        {
+          "claim":{
+            "account":"user"
+          }
         }
-      },
-	  {
-        "unstake":{
-          "from":"user",
-          "quantity":"asset"
+      ],
+      "link":"https://coffe.io"
+    },
+    {
+      "name":"SYSTEM",
+      "contract":["eosio"],
+      "actions":[
+        {
+          "buyrambytes":{
+            "payer":"user",
+            "receiver":"name",
+            "bytes":"int"
+          }
+        },
+        {
+          "delegatebw":{
+            "from":"user",
+            "receiver":"name",
+            "stake_net_quantity":"asset",
+            "stake_cpu_quantity":"asset",
+            "transfer":"int"
+          }
         }
-      },
-	  {
-        "claim":{
-          "account":"user"
-        }
-      }
-	],
-    "link":"https://coffe.io"
-  },
-  {
-    "name":"SYSTEM",
-    "contract":["eosio"],
-    "actions":[
-	  {
-        "buyrambytes":{
-          "payer":"user",
-          "receiver":"name",
-          "bytes":"int"
-        }
-      },
-	  {
-        "delegatebw":{
-          "from":"user",
-          "receiver":"name",
-          "stake_net_quantity":"asset",
-          "stake_cpu_quantity":"asset",
-          "transfer":"int"
-        }
-      }
-	],
-    "link":"https://coffe.io"
-  }  
- ]
+      ],
+      "link":"https://coffe.io"
+    }  
+  ]
+}
