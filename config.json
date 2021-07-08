@@ -24,7 +24,7 @@
     { "contract":"swap.t.mp3", "networks":["TRC20"] },
     { "contract":"swap.e.cbt", "networks":["ERC20","BEP20"] }
   ],
-  "contracts:[
+  "contracts":[
     {
       "name":"COFFE Exchange",
       "contract":[ "coffe.one" ],
