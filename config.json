@@ -73,7 +73,7 @@
             "receiver":"name",
             "stake_net_quantity":"asset",
             "stake_cpu_quantity":"asset",
-            "transfer":"int"
+            "transfer":"boolean"
           }
         }
       ],
