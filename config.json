@@ -1,9 +1,7 @@
 {
   "tokens":[
     { "contract":"eosio.token","decimal":4,"symbol":"CFF","networks":["TRC10","BEP20"] },
-    { "contract":"swap.eos","decimal":4,"symbol":"EOS","networks":["EOS"] },
     { "contract":"swap.trx","decimal":4,"symbol":"TRX","networks":["TRX"] },
-    { "contract":"swap.cht","decimal":4,"symbol":"CHT","networks":["EOS"] },
     { "contract":"swap.eth","decimal":6,"symbol":"ETH","networks":["ETH"] },
     { "contract":"swap.btc","decimal":8,"symbol":"BTC","networks":["BTC"] },
     { "contract":"swap.bnb","decimal":4,"symbol":"BNB","networks":["BEP20"] },
