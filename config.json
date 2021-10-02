@@ -1,6 +1,6 @@
 {
   "tokens":[
-    { "contract":"eosio.token","decimal":4,"symbol":"CFF","networks":["TRC10","BEP20"] },
+    { "contract":"eosio.token","decimal":4,"symbol":"CFF","networks":["ERC20","TRC10","BEP20","MATIC"] },
     { "contract":"swap.trx","decimal":4,"symbol":"TRX","networks":["TRX"] },
     { "contract":"swap.eth","decimal":6,"symbol":"ETH","networks":["ETH"] },
     { "contract":"swap.btc","decimal":8,"symbol":"BTC","networks":["BTC"] },
@@ -19,8 +19,9 @@
     { "contract":"swap.b.ore","decimal":4,"symbol":"ORE","networks":["BEP20"] },
     { "contract":"swap.e.dgp","decimal":4,"symbol":"DGP","networks":["ERC20","BEP20"] },
     { "contract":"swap.e.sefa","decimal":4,"symbol":"SEFA","networks":["ERC20","BEP20"] },
-    { "contract":"swap.t.mp3","decimal":4,"symbol":"MP3","networks":["TRC20"] },
-    { "contract":"swap.e.cbt","decimal":4,"symbol":"CBT","networks":["ERC20","BEP20"] }
+    { "contract":"swap.e.cbt","decimal":4,"symbol":"CBT","networks":["ERC20","BEP20"] },
+    { "contract":"swap.matic","decimal":4,"symbol":"MATIC","networks":["MATIC"] },
+    { "contract":"ch.token","decimal":4,"symbol":"CHT","networks":["ERC20","BEP20","MATIC20"] }
   ],
   "contracts":[
     {
