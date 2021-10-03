@@ -1,10 +1,10 @@
 {
   "tokens":[
     { "contract":"eosio.token","decimal":4,"symbol":"CFF","networks":["ERC20","TRC10","BEP20","MATIC"] },
-    { "contract":"swap.trx","decimal":4,"symbol":"TRX","networks":["TRX"] },
-    { "contract":"swap.eth","decimal":6,"symbol":"ETH","networks":["ETH"] },
-    { "contract":"swap.btc","decimal":8,"symbol":"BTC","networks":["BTC"] },
-    { "contract":"swap.bnb","decimal":4,"symbol":"BNB","networks":["BEP20"] },
+    { "contract":"swap.trx","decimal":4,"symbol":"TRXС","networks":["TRX"] },
+    { "contract":"swap.eth","decimal":6,"symbol":"ETHС","networks":["ETH"] },
+    { "contract":"swap.btc","decimal":8,"symbol":"BTCС","networks":["BTC"] },
+    { "contract":"swap.bnb","decimal":4,"symbol":"BNBС","networks":["BEP20"] },
     { "contract":"swap.usdt.e","decimal":4,"symbol":"USDT","networks":["ERC20"] },
     { "contract":"swap.t.asp","decimal":4,"symbol":"ASP","networks":["TRC20"] },
     { "contract":"swap.t.psrs","decimal":4,"symbol":"PSRS","networks":["TRC20"] },
