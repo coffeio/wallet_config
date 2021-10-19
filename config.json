@@ -22,7 +22,8 @@
     { "contract":"swap.e.cbt","decimal":4,"symbol":"CBT","networks":["ERC20","BEP20"] },
     { "contract":"swap.matic","decimal":4,"symbol":"MATIC","networks":["MATIC"] },
     { "contract":"ch.token","decimal":4,"symbol":"CHT","networks":["ERC20","BEP20","MATIC20"] },
-    { "contract":"tokenrerere1","decimal":4,"symbol":"USDTEST","networks":["COFFE"] }
+    { "contract":"tokenrerere1","decimal":4,"symbol":"USDTEST","networks":["COFFE"] },
+    { "contract":"swap.olive","decimal":4,"symbol":"OLIVE","networks":["BEP20"] }
   ],
   "contracts":[
     {
