@@ -25,8 +25,6 @@
     { "contract":"tokenrerere1","decimal":4,"symbol":"USDTEST","networks":["COFFE"] },
     { "contract":"swap.olive","decimal":4,"symbol":"OLIVE","networks":["BEP20"] },
     { "contract":"alldrops.air","decimal":4,"symbol":"AIR","networks":["COFFE"] },
-    { "contract":"imgmarketorg","decimal":4,"symbol":"IMG","networks":["COFFE"] },
-    { "contract":"game.token","decimal":4,"symbol":"GAME","networks":["COFFE"] },
     { "contract":"wardefitoken","decimal":4,"symbol":"WDF","networks":["BEP20"] }
   ],
   "contracts":[
