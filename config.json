@@ -26,7 +26,9 @@
     { "contract":"swap.olive","decimal":4,"symbol":"OLIVE","networks":["BEP20"] },
     { "contract":"alldrops.air","decimal":4,"symbol":"AIR","networks":["COFFE"] },
     { "contract":"wardefitoken","decimal":4,"symbol":"WDF","networks":["BEP20"] },
-    { "contract":"swap.cdt","decimal":4,"symbol":"CDT","networks":["COFFE"] }
+    { "contract":"swap.cdt","decimal":4,"symbol":"CDT","networks":["COFFE"] },
+    { "contract":"tokenrerer22","decimal":4,"symbol":"FAKEA","networks":["COFFE"] },
+    { "contract":"tokenrerer11","decimal":6,"symbol":"FAKEB","networks":["COFFE"] }
   ],
   "contracts":[
     {
