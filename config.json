@@ -32,12 +32,6 @@
   ],
   "contracts":[
     {
-      "name":"COFFE Exchange",
-      "contract":[ "coffe.one" ],
-      "actions":[],
-      "link":"https://coffe.one"
-    },
-    {
       "name":"COFFE HOLDER",
       "contract":["coffe.hold"],
       "actions":[
