@@ -32,6 +32,26 @@
   ],
   "contracts":[
     {
+      "name":"CRYPTOHEROES",
+      "contract":["ch.token"],
+      "actions":[
+        {
+          "stake":{
+            "from":"user",
+            "to":"ch.game",
+            "quantity":"asset"
+          }
+        },
+        {
+          "unstake":{
+            "to":"user",
+            "from":"ch.game",
+            "quantity":"asset"
+          }
+        }
+      ],
+      "link":"http://cryptoheroes.net"
+    },{
       "name":"COFFE HOLDER",
       "contract":["coffe.hold"],
       "actions":[
