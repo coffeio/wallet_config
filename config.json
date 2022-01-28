@@ -38,14 +38,14 @@
         {
           "stake":{
             "from":"user",
-            "to":"ch.game",
+            "to":"!ch.game",
             "quantity":"asset"
           }
         },
         {
           "unstake":{
             "to":"user",
-            "from":"ch.game",
+            "from":"!ch.game",
             "quantity":"asset"
           }
         }
