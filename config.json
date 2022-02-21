@@ -28,7 +28,8 @@
     { "contract":"wardefitoken","decimal":4,"symbol":"WDF","networks":["BEP20"] },
     { "contract":"swap.cdt","decimal":4,"symbol":"CDT","networks":["COFFE"] },
     { "contract":"tokenrerer22","decimal":4,"symbol":"FAKEA","networks":["COFFE"] },
-    { "contract":"tokenrerer11","decimal":6,"symbol":"FAKEB","networks":["COFFE"] }
+    { "contract":"tokenrerer11","decimal":6,"symbol":"FAKEB","networks":["COFFE"] },
+    { "contract":"swap.e.leven","decimal":4,"symbol":"LEVEN","networks":["ERC20","BEP20"] }
   ],
   "contracts":[
     {
