@@ -1,104 +1,336 @@
 {
-  "tokens":[
-    { "contract":"eosio.token","decimal":4,"symbol":"CFF","networks":["ERC20","TRC10","BEP20","MATIC"] },
-    { "contract":"swap.trx","decimal":4,"symbol":"TRXC","networks":["TRX"] },
-    { "contract":"swap.eth","decimal":6,"symbol":"ETHC","networks":["ETH"] },
-    { "contract":"swap.btc","decimal":8,"symbol":"BTCC","networks":["BTC"] },
-    { "contract":"swap.bnb","decimal":4,"symbol":"BNBC","networks":["BEP20"] },
-    { "contract":"swap.usdt.e","decimal":4,"symbol":"USDT","networks":["ERC20"] },
-    { "contract":"swap.t.asp","decimal":4,"symbol":"ASP","networks":["TRC20"] },
-    { "contract":"swap.t.psrs","decimal":4,"symbol":"PSRS","networks":["TRC20"] },
-    { "contract":"swap.e.green","decimal":4,"symbol":"GREEN","networks":["ERC20","BEP20"] },
-    { "contract":"swap.t.whx","decimal":4,"symbol":"WHX","networks":["TRC20"] },
-    { "contract":"swap.t.whf","decimal":4,"symbol":"WHF","networks":["TRC20"] },
-    { "contract":"swap.e.fast","decimal":4,"symbol":"FAST","networks":["ERC20","BEP20"] },
-    { "contract":"swap.e.zcn","decimal":4,"symbol":"ZCN","networks":["ERC20","BEP20"] },
-    { "contract":"swap.e.bfi","decimal":4,"symbol":"BFI","networks":["ERC20","BEP20"] },
-    { "contract":"swap.e.fwt","decimal":4,"symbol":"FWT","networks":["ERC20","BEP20"] },
-    { "contract":"swap.t.dpc","decimal":4,"symbol":"DPC","networks":["TRC20"] },
-    { "contract":"swap.b.ore","decimal":4,"symbol":"ORE","networks":["BEP20"] },
-    { "contract":"swap.e.dgp","decimal":4,"symbol":"DGP","networks":["ERC20","BEP20"] },
-    { "contract":"swap.e.sefa","decimal":4,"symbol":"SEFA","networks":["ERC20","BEP20"] },
-    { "contract":"swap.e.cbt","decimal":4,"symbol":"CBT","networks":["ERC20","BEP20"] },
-    { "contract":"swap.matic","decimal":4,"symbol":"MATIC","networks":["MATIC"] },
-    { "contract":"ch.token","decimal":4,"symbol":"CHT","networks":["ERC20","BEP20","MATIC20"] },
-    { "contract":"tokenrerere1","decimal":4,"symbol":"USDTEST","networks":["COFFE"] },
-    { "contract":"swap.olive","decimal":4,"symbol":"OLIVE","networks":["BEP20"] },
-    { "contract":"alldrops.air","decimal":4,"symbol":"AIR","networks":["COFFE"] },
-    { "contract":"wardefitoken","decimal":4,"symbol":"WDF","networks":["BEP20"] },
-    { "contract":"swap.cdt","decimal":4,"symbol":"CDT","networks":["COFFE"] },
-    { "contract":"tokenrerer22","decimal":4,"symbol":"FAKEA","networks":["COFFE"] },
-    { "contract":"tokenrerer11","decimal":6,"symbol":"FAKEB","networks":["COFFE"] },
-    { "contract":"swap.e.leven","decimal":4,"symbol":"LEVEN","networks":["ERC20","BEP20"] }
-  ],
-  "contracts":[
+  "tokens": [
     {
-      "name":"CRYPTOHEROES",
-      "contract":["ch.token"],
-      "actions":[
-        {
-          "stake":{
-            "from":"user",
-            "to":"!ch.game",
-            "quantity":"asset"
-          }
-        },
-        {
-          "unstake":{
-            "to":"user",
-            "from":"!ch.game",
-            "quantity":"asset"
-          }
-        }
-      ],
-      "link":"http://cryptoheroes.net"
-    },{
-      "name":"COFFE HOLDER",
-      "contract":["coffe.hold"],
-      "actions":[
-        {
-          "stake":{
-            "from":"user",
-            "quantity":"asset",
-            "memo":"string"
-          }
-        },
-        {
-          "unstake":{
-            "from":"user",
-            "quantity":"asset"
-          }
-        },
-        {
-          "claim":{
-            "account":"user"
-          }
-        }
-      ],
-      "link":"https://coffe.io"
+      "contract": "eosio.token",
+      "decimal": 4,
+      "symbol": "CFF",
+      "networks": [
+        "ERC20",
+        "TRC10",
+        "BEP20",
+        "MATIC"
+      ]
     },
     {
-      "name":"SYSTEM",
-      "contract":["eosio"],
-      "actions":[
+      "contract": "swap.trx",
+      "decimal": 4,
+      "symbol": "TRXC",
+      "networks": [
+        "TRX"
+      ]
+    },
+    {
+      "contract": "swap.eth",
+      "decimal": 6,
+      "symbol": "ETHC",
+      "networks": [
+        "ETH"
+      ]
+    },
+    {
+      "contract": "swap.btc",
+      "decimal": 8,
+      "symbol": "BTCC",
+      "networks": [
+        "BTC"
+      ]
+    },
+    {
+      "contract": "swap.bnb",
+      "decimal": 4,
+      "symbol": "BNBC",
+      "networks": [
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.usdt.e",
+      "decimal": 4,
+      "symbol": "USDT",
+      "networks": [
+        "ERC20"
+      ]
+    },
+    {
+      "contract": "swap.t.asp",
+      "decimal": 4,
+      "symbol": "ASP",
+      "networks": [
+        "TRC20"
+      ]
+    },
+    {
+      "contract": "swap.t.psrs",
+      "decimal": 4,
+      "symbol": "PSRS",
+      "networks": [
+        "TRC20"
+      ]
+    },
+    {
+      "contract": "swap.e.green",
+      "decimal": 4,
+      "symbol": "GREEN",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.t.whx",
+      "decimal": 4,
+      "symbol": "WHX",
+      "networks": [
+        "TRC20"
+      ]
+    },
+    {
+      "contract": "swap.t.whf",
+      "decimal": 4,
+      "symbol": "WHF",
+      "networks": [
+        "TRC20"
+      ]
+    },
+    {
+      "contract": "swap.e.fast",
+      "decimal": 4,
+      "symbol": "FAST",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.zcn",
+      "decimal": 4,
+      "symbol": "ZCN",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.bfi",
+      "decimal": 4,
+      "symbol": "BFI",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.fwt",
+      "decimal": 4,
+      "symbol": "FWT",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.t.dpc",
+      "decimal": 4,
+      "symbol": "DPC",
+      "networks": [
+        "TRC20"
+      ]
+    },
+    {
+      "contract": "swap.b.ore",
+      "decimal": 4,
+      "symbol": "ORE",
+      "networks": [
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.dgp",
+      "decimal": 4,
+      "symbol": "DGP",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.sefa",
+      "decimal": 4,
+      "symbol": "SEFA",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.e.cbt",
+      "decimal": 4,
+      "symbol": "CBT",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.matic",
+      "decimal": 4,
+      "symbol": "MATIC",
+      "networks": [
+        "MATIC"
+      ]
+    },
+    {
+      "contract": "ch.token",
+      "decimal": 4,
+      "symbol": "CHT",
+      "networks": [
+        "ERC20",
+        "BEP20",
+        "MATIC20"
+      ]
+    },
+    {
+      "contract": "tokenrerere1",
+      "decimal": 4,
+      "symbol": "USDTEST",
+      "networks": [
+        "COFFE"
+      ]
+    },
+    {
+      "contract": "swap.olive",
+      "decimal": 4,
+      "symbol": "OLIVE",
+      "networks": [
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "alldrops.air",
+      "decimal": 4,
+      "symbol": "AIR",
+      "networks": [
+        "COFFE"
+      ]
+    },
+    {
+      "contract": "wardefitoken",
+      "decimal": 4,
+      "symbol": "WDF",
+      "networks": [
+        "BEP20"
+      ]
+    },
+    {
+      "contract": "swap.cdt",
+      "decimal": 4,
+      "symbol": "CDT",
+      "networks": [
+        "COFFE"
+      ]
+    },
+    {
+      "contract": "tokenrerer22",
+      "decimal": 4,
+      "symbol": "FAKEA",
+      "networks": [
+        "COFFE"
+      ]
+    },
+    {
+      "contract": "tokenrerer11",
+      "decimal": 6,
+      "symbol": "FAKEB",
+      "networks": [
+        "COFFE"
+      ]
+    },
+    {
+      "contract": "swap.e.leven",
+      "decimal": 4,
+      "symbol": "LEVEN",
+      "networks": [
+        "ERC20",
+        "BEP20"
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "name": "CRYPTOHEROES",
+      "contract": [
+        "ch.token"
+      ],
+      "actions": [
         {
-          "buyrambytes":{
-            "payer":"user",
-            "receiver":"name",
-            "bytes":"int"
+          "stake": {
+            "from": "user",
+            "to": "!ch.game",
+            "quantity": "asset"
           }
         },
         {
-          "delegatebw":{
-            "from":"user",
-            "receiver":"name",
-            "stake_net_quantity":"asset",
-            "stake_cpu_quantity":"asset",
-            "transfer":"boolean"
+          "unstake": {
+            "to": "user",
+            "from": "!ch.game",
+            "quantity": "asset"
           }
         }
       ],
-      "link":"https://coffe.io"
-    }  
-  ]
+      "link": "http://cryptoheroes.net"
+    },
+    {
+      "name": "COFFE HOLDER",
+      "contract": [
+        "coffe.hold"
+      ],
+      "actions": [
+        {
+          "stake": {
+            "from": "user",
+            "quantity": "asset",
+            "memo": "string"
+          }
+        },
+        {
+          "unstake": {
+            "from": "user",
+            "quantity": "asset"
+          }
+        },
+        {
+          "claim": {
+            "account": "user"
+          }
+        }
+      ],
+      "link": "https://coffe.io"
+    },
+    {
+      "name": "SYSTEM",
+      "contract": [
+        "eosio"
+      ],
+      "actions": [
+        {
+          "buyrambytes": {
+            "payer": "user",
+            "receiver": "name",
+            "bytes": "int"
+          }
+        },
+        {
+          "delegatebw": {
+            "from": "user",
+            "receiver": "name",
+            "stake_net_quantity": "asset",
+            "stake_cpu_quantity": "asset",
+            "transfer": "boolean"
+          }
+        }
+      ],
+      "link": "https://coffe.io"
+    }
+  ],
+  "version": "1.1.18"
 }
