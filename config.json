@@ -230,22 +230,6 @@
       ]
     },
     {
-      "contract": "tokenrerer22",
-      "decimal": 4,
-      "symbol": "FAKEA",
-      "networks": [
-        "COFFE"
-      ]
-    },
-    {
-      "contract": "tokenrerer11",
-      "decimal": 6,
-      "symbol": "FAKEB",
-      "networks": [
-        "COFFE"
-      ]
-    },
-    {
       "contract": "swap.e.leven",
       "decimal": 4,
       "symbol": "LEVEN",
@@ -277,7 +261,7 @@
           }
         }
       ],
-      "link": "http://cryptoheroes.net"
+      "link": "https://cryptoheroes.net"
     },
     {
       "name": "COFFE HOLDER",
@@ -332,5 +316,5 @@
       "link": "https://coffe.io"
     }
   ],
-  "version": "1.1.21"
+  "version": "1.1.22"
 }
