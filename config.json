@@ -3,15 +3,25 @@
     {
       "contract": "eosio.token",
       "decimal": 4,
-      "symbol": "NCH",
-      "networks": []
+      "symbol": "GFT",
+      "networks": [
+        "GF"
+      ]
     },
     {
       "contract": "nch.cdt",
       "decimal": 4,
       "symbol": "CDT",
       "networks": [
-        "NCH"
+        "GF"
+      ]
+    },
+    {
+      "contract": "testswapsfla",
+      "decimal": 4,
+      "symbol": "FLA",
+      "networks": [
+        "GF", "BEP20"
       ]
     }
   ],
